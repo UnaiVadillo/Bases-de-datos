@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DADA5F9-830C-0B64-624C-0844CEAC1317" name="fabricantes">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>A844709B-20FE-FCDF-765F-63EA5DDDBFC7</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_fabricante" id="B950AB7E-0451-0557-6076-063253E92ACE">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>56EDDBB2-9922-01D4-F8D7-887766338348</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E69A40C9-F266-116D-511E-34BE51B016AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="A4E95A4D-2366-6115-DF71-3A42051E3432">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>9C832BE7-392C-9650-97EE-8A2C243258CC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9B55FA7B-FB70-0BE3-CB71-53B638B43262</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="42ED6B52-B8E9-BCFA-068D-46B1E0FA90A8">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>F9430D3A-1117-A9FC-7BFE-278F57BA24D3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9B55FA7B-FB70-0BE3-CB71-53B638B43262</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F54963BB-F2C3-472C-4DC4-388D049FDCD7" name="fab_cod_fab_pk">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>36B54980-2FBB-D06C-888F-3ACEE9C3F6E9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B950AB7E-0451-0557-6076-063253E92ACE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="fab_nombre_ck" directorySegmentName="seg_0" id="5736F281-BD7A-0E78-06E3-93C0F3614DD1">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>F9871F9C-07DE-97EB-9FE4-99BA0B37A1BB</importedID>
+<rule><![CDATA[nombre = upper(nombre)]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="fab_pais_ck" directorySegmentName="seg_0" id="9FD3C0A2-584C-711F-4924-7E817FB7AF16">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>3E3C2DC3-4599-0B78-6952-71469191C177</importedID>
+<rule><![CDATA[pais= upper(pais)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

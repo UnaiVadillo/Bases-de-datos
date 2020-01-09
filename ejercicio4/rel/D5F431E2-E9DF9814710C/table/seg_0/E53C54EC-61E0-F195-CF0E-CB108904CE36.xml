@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E53C54EC-61E0-F195-CF0E-CB108904CE36" name="tiendas">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>C8B3B442-7F43-8715-74F3-C14444EA73D5</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nif" id="D535BD09-8FA3-6459-8413-6606BFCF0BC9">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>CC20B885-7B5F-5C0A-6706-04E22B1978A9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F3800D3-3629-DF69-0BA7-C3A4CA1EF365</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5E2A1515-2DF9-E860-4B21-E9AEE675B371">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>CA0CF526-F11F-F8ED-C029-18747BAACFE8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>17624B0F-0062-EC72-8442-D2E0033A817A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="61E2A53C-BE76-319E-71EA-BB3B4C4F6D36">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>99ABC3FA-2600-90E1-A9D5-DF19C7F4CC0E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>17624B0F-0062-EC72-8442-D2E0033A817A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poblacion" id="378F0FE8-09C8-BEDB-5380-DF2B5D230733">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>998F6C93-C0CB-5500-9004-24EA47170A04</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>17624B0F-0062-EC72-8442-D2E0033A817A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="provincia" id="89B5BA9A-EF0D-BC46-8AF6-57C17E4E03C8">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>0AFFDBF4-6B65-F16F-7757-9180B206F2E1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>17624B0F-0062-EC72-8442-D2E0033A817A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codpostal" id="F75BD7CA-426F-C807-6EFC-D8A6C6A558B1">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>C7FFED80-4E57-A474-6C0C-093DDB6F66B4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1E527860-3B7F-73CD-E311-6EF6CD187EA5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA5EB3FE-CE0F-21A2-D27B-B03CE3F094B8" name="tie_nif_pk">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>F6508A7B-7511-9136-C0DB-938940D5D8D9</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D535BD09-8FA3-6459-8413-6606BFCF0BC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="tie_provincia_ck" directorySegmentName="seg_0" id="CACCB451-F2F2-53FB-9FC3-B168ED33B872">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>5CF41F22-6795-9C7D-9AE7-53823C41ACE7</importedID>
+<rule><![CDATA[provincia = upper(provincia)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

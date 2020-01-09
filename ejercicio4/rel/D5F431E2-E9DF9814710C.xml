@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="D5F431E2-A604-D3B7-8900-E9DF9814710C" mainViewID="ED732CF2-FDAF-B3E9-8213-BA4BDD98994C">
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:48:43 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>ejercicio4.sql</fileName>
+<pathName>/Users/1gdaw11/Desktop/BASES DE DATOS</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

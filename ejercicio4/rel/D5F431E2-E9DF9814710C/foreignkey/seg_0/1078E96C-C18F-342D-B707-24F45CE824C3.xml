@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1078E96C-C18F-342D-B707-24F45CE824C3" containerWithKeyObject="0915F343-861C-1B76-E46D-34C0FC655B71" localFKIndex="817F6C99-ED9E-5DEE-6DDB-18E03D74BAAE" name="ven_art_fk">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>128F9DA9-697D-283E-AA03-A12D2AB89CD3</importedID>
+<referredTableLongName>articulos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>12919AA4-1B2C-211E-9B74-34F271F627EF</referredTableID>
+<keyObject>28F5F100-8A08-4DBD-DB2E-61AC8011AF42</keyObject>
+<referredKeyID>28F5F100-8A08-4DBD-DB2E-61AC8011AF42</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>articulo,cod_fabricante,peso,categoria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

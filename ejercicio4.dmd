@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ejercicio4" id="B1BA4F74-8511-AE6C-8D7A-E80B7077D8A8" version="3.5">
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:48:42 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B1BA4F74-8511-AE6C-8D7A-E80B7077D8A8</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="A6755E45-D665-0211-037F-B84BB7CE3129">
+<designStoragePath>/ejercicio4</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0915F343-861C-1B76-E46D-34C0FC655B71" name="ventas">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>524F9677-EB29-B4B8-2A78-E4F1C91A303A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nif" id="CBA5A9B2-BC04-5646-CBEB-F9AD038A28F6">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>53281D0C-E816-A903-0F30-60FC5E08CCD3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F3800D3-3629-DF69-0BA7-C3A4CA1EF365</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9635F120-3538-6D73-1342-C79FF976F30F" referredColumn="D535BD09-8FA3-6459-8413-6606BFCF0BC9"/>
+</associations>
+</Column>
+<Column name="articulo" id="B5296A5B-0A6E-3909-38DF-16A7795A5199">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>CBD0D689-E4FD-A9DC-3B55-98E6541AB02C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>17624B0F-0062-EC72-8442-D2E0033A817A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1078E96C-C18F-342D-B707-24F45CE824C3" referredColumn="94C0955D-9760-F805-8430-E0BBD74F58C9"/>
+</associations>
+</Column>
+<Column name="cod_fabricante" id="E2CEC03D-DB2C-D08F-D9B4-443B49C9043B">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>2225ECE5-F267-0BEF-ABE1-F9B85B170B11</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E69A40C9-F266-116D-511E-34BE51B016AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1078E96C-C18F-342D-B707-24F45CE824C3" referredColumn="5D94B74F-0AB8-AFF2-8851-833AE08FD6B4"/>
+<colAssociation fkAssociation="61A62469-62B2-2D30-2019-41E80FAC836E" referredColumn="B950AB7E-0451-0557-6076-063253E92ACE"/>
+</associations>
+</Column>
+<Column name="peso" id="F84F6849-77D9-0CB8-0D7F-F1D4F3A5018A">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>D5239CA2-9BEE-8933-26A7-EC6B2FEFA209</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C1523FD2-FBED-A417-74B7-7E42BF5EAEDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1078E96C-C18F-342D-B707-24F45CE824C3" referredColumn="9A9DFAD4-3FF7-4A2C-35B2-E72BBDFD27BA"/>
+</associations>
+</Column>
+<Column name="categoria" id="FA9F71CA-FA82-4D20-058A-B36787FCB6AD">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>570BE0AD-BEE0-D6F9-0EDB-9DB3567316A3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F3800D3-3629-DF69-0BA7-C3A4CA1EF365</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1078E96C-C18F-342D-B707-24F45CE824C3" referredColumn="EAB7F39D-6173-C7A1-36B0-AD4C95173EB6"/>
+</associations>
+</Column>
+<Column name="fecha_venta" id="F0F0A105-A277-F7B7-DCFA-4BCF08C1A162">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>35D06D00-B2EC-BD5E-F5C8-7E2E3847ADC3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C323BE73-71F0-2535-F592-01FB2DC03895</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidades_vendidas" id="8C48AF38-B973-D941-BF31-EE9F461294AE">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>2CDB8858-C842-D4EB-F117-2674DC36C703</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A0DFDD50-44F8-7A88-B35E-57630FA8CBE1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24E93851-2868-A059-595F-625528E7F9A4" name="ven_pk">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>F9F98DFA-EA08-442D-928B-ED938E3B579B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBA5A9B2-BC04-5646-CBEB-F9AD038A28F6"/>
+<colUsage columnID="B5296A5B-0A6E-3909-38DF-16A7795A5199"/>
+<colUsage columnID="E2CEC03D-DB2C-D08F-D9B4-443B49C9043B"/>
+<colUsage columnID="F84F6849-77D9-0CB8-0D7F-F1D4F3A5018A"/>
+<colUsage columnID="FA9F71CA-FA82-4D20-058A-B36787FCB6AD"/>
+<colUsage columnID="F0F0A105-A277-F7B7-DCFA-4BCF08C1A162"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="817F6C99-ED9E-5DEE-6DDB-18E03D74BAAE" name="ven_art_fk">
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5296A5B-0A6E-3909-38DF-16A7795A5199"/>
+<colUsage columnID="E2CEC03D-DB2C-D08F-D9B4-443B49C9043B"/>
+<colUsage columnID="F84F6849-77D9-0CB8-0D7F-F1D4F3A5018A"/>
+<colUsage columnID="FA9F71CA-FA82-4D20-058A-B36787FCB6AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2B30829-F8BD-C88A-1989-B6AA13A3C78E" name="ven_fab_fk">
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2CEC03D-DB2C-D08F-D9B4-443B49C9043B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="77A6B824-E5BD-DFD1-461C-41E534901CF4" name="ven_tie_fk">
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBA5A9B2-BC04-5646-CBEB-F9AD038A28F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ven_unidades_ck" directorySegmentName="seg_0" id="81371B47-8AD0-34CB-C3CC-3D242F410408">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>9DA5B70D-14BC-164E-8649-A3B120D9680D</importedID>
+<rule><![CDATA[unidades_vendidas>0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ven_categoria_ck" directorySegmentName="seg_0" id="C8CF55DF-2DD7-2732-4963-03374C140211">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>2E3F5FB1-6A11-20C4-CE77-0329F42568B6</importedID>
+<rule><![CDATA[categoria IN ('primero','segundo','tercero')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

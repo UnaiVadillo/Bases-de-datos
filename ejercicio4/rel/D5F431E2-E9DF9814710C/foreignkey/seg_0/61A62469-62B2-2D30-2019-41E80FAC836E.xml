@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="61A62469-62B2-2D30-2019-41E80FAC836E" containerWithKeyObject="0915F343-861C-1B76-E46D-34C0FC655B71" localFKIndex="F2B30829-F8BD-C88A-1989-B6AA13A3C78E" name="ven_fab_fk">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>917E431B-21C6-ADFE-CE0A-E35304CBCC21</importedID>
+<referredTableLongName>fabricantes</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DADA5F9-830C-0B64-624C-0844CEAC1317</referredTableID>
+<keyObject>F54963BB-F2C3-472C-4DC4-388D049FDCD7</keyObject>
+<referredKeyID>F54963BB-F2C3-472C-4DC4-388D049FDCD7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod_fabricante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

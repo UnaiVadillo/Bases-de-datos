@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="960A0A16-F400-579D-AD50-9E869CF466F5" name="pedidos">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>715E59DC-A7A1-CCD9-F742-9AFBC3656F37</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nif" id="07613C37-A42A-191A-8102-C573D3C0E411">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>97D05CAA-F46A-F4D0-53F2-08FD8FEEF41B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F3800D3-3629-DF69-0BA7-C3A4CA1EF365</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A5EBE6A-FFF2-07C4-20C7-C097E70245F0" referredColumn="D535BD09-8FA3-6459-8413-6606BFCF0BC9"/>
+</associations>
+</Column>
+<Column name="articulo" id="7849BD3D-C2DC-571D-D072-5EB8D6E8A9D7">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>491FF6DB-B734-B296-F36F-BC1A69F081D7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>17624B0F-0062-EC72-8442-D2E0033A817A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C50F6E69-590B-249D-19A3-0FEB1DE8CE47" referredColumn="94C0955D-9760-F805-8430-E0BBD74F58C9"/>
+</associations>
+</Column>
+<Column name="cod_fabricante" id="FAD6D60E-3F3F-180C-39A8-81D19C00D19A">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>6D2BD97D-2AC4-B414-6C77-17C7159F6231</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E69A40C9-F266-116D-511E-34BE51B016AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C50F6E69-590B-249D-19A3-0FEB1DE8CE47" referredColumn="5D94B74F-0AB8-AFF2-8851-833AE08FD6B4"/>
+<colAssociation fkAssociation="D769F554-BA37-5704-2943-01340707EE79" referredColumn="B950AB7E-0451-0557-6076-063253E92ACE"/>
+</associations>
+</Column>
+<Column name="peso" id="78335832-E0BA-5636-4F16-D4537556C4C1">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>91684D03-3F2B-6D69-14B9-AB263B5479BD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C1523FD2-FBED-A417-74B7-7E42BF5EAEDD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C50F6E69-590B-249D-19A3-0FEB1DE8CE47" referredColumn="9A9DFAD4-3FF7-4A2C-35B2-E72BBDFD27BA"/>
+</associations>
+</Column>
+<Column name="categoria" id="A88159F0-C723-42FF-FCF0-F60F1CF305A0">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>B607EEA0-FFEF-EB86-D803-55D2D3BDF616</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F3800D3-3629-DF69-0BA7-C3A4CA1EF365</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C50F6E69-590B-249D-19A3-0FEB1DE8CE47" referredColumn="EAB7F39D-6173-C7A1-36B0-AD4C95173EB6"/>
+</associations>
+</Column>
+<Column name="fecha_pedido" id="E2A7D405-8F4E-C816-86FB-4152C65EFAF9">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>9E6BD4E2-D3E7-FFFA-10EE-113AE79C26D8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>C323BE73-71F0-2535-F592-01FB2DC03895</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidades_pedidas" id="0EA127AE-E8E7-3469-7090-210A40474FDC">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>73FF8A05-7789-51F0-AB0E-EDF4577F356E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>A0DFDD50-44F8-7A88-B35E-57630FA8CBE1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73969382-CE87-0D4F-0B09-B1C31A952911" name="ped_pk">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>BF346B70-88AD-D1A9-A044-41730F0AE530</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07613C37-A42A-191A-8102-C573D3C0E411"/>
+<colUsage columnID="7849BD3D-C2DC-571D-D072-5EB8D6E8A9D7"/>
+<colUsage columnID="FAD6D60E-3F3F-180C-39A8-81D19C00D19A"/>
+<colUsage columnID="78335832-E0BA-5636-4F16-D4537556C4C1"/>
+<colUsage columnID="A88159F0-C723-42FF-FCF0-F60F1CF305A0"/>
+<colUsage columnID="E2A7D405-8F4E-C816-86FB-4152C65EFAF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC4E9291-EC12-2450-EEF8-A52A483143E0" name="ped_art_fk">
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7849BD3D-C2DC-571D-D072-5EB8D6E8A9D7"/>
+<colUsage columnID="FAD6D60E-3F3F-180C-39A8-81D19C00D19A"/>
+<colUsage columnID="78335832-E0BA-5636-4F16-D4537556C4C1"/>
+<colUsage columnID="A88159F0-C723-42FF-FCF0-F60F1CF305A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7BF0BD84-8285-BE42-C972-89AB9E9064ED" name="ped_fabricante_fk">
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAD6D60E-3F3F-180C-39A8-81D19C00D19A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9647BE22-0987-403F-16F5-464B18085F28" name="tie_fk">
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07613C37-A42A-191A-8102-C573D3C0E411"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ped_unidades_ck" directorySegmentName="seg_0" id="1986474C-619F-F255-7767-623B3E4BFB56">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>632CE6AC-9879-FF5A-B026-44692E53C3B9</importedID>
+<rule><![CDATA[unidades_pedidas>0]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="ped_categoria_ck" directorySegmentName="seg_0" id="9D271013-941B-7389-817C-B57DDA084038">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>B0A2B8CD-02F5-B708-FB2E-45A7757F45B7</importedID>
+<rule><![CDATA[categoria IN ('primero','segundo','tercero')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

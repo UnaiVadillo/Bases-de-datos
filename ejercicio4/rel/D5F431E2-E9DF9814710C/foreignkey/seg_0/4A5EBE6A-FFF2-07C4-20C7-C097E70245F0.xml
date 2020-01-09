@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4A5EBE6A-FFF2-07C4-20C7-C097E70245F0" containerWithKeyObject="960A0A16-F400-579D-AD50-9E869CF466F5" localFKIndex="9647BE22-0987-403F-16F5-464B18085F28" name="tie_fk">
+<sourceDDLFile>ejercicio4.sql</sourceDDLFile>
+<createdBy>1gdaw11</createdBy>
+<createdTime>2019-11-21 12:49:02 UTC</createdTime>
+<ownerDesignName>ejercicio4</ownerDesignName>
+<importedID>A101FAF0-F0C1-66CC-E773-E41D076A26AD</importedID>
+<referredTableLongName>tiendas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E53C54EC-61E0-F195-CF0E-CB108904CE36</referredTableID>
+<keyObject>FA5EB3FE-CE0F-21A2-D27B-B03CE3F094B8</keyObject>
+<referredKeyID>FA5EB3FE-CE0F-21A2-D27B-B03CE3F094B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nif</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
